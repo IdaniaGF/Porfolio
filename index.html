@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/79a37c2337.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/base.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/socialMedia.css" rel="stylesheet">
+    <link href="./assets/css/presentation.css" rel="stylesheet">
+    <link href="./assets/css/aboutMe.css" rel="stylesheet">
+    <link href="./assets/css/skills.css" rel="stylesheet">
+    <link href="./assets/css/hobbies.css" rel="stylesheet">
+    <link href="./assets/css/trainings.css" rel="stylesheet">
+    <link href="./assets/css/project.css" rel="stylesheet">
+    <link href="./assets/css/contact.css" rel="stylesheet">
+    <link href="./assets/css/footer.css" rel="stylesheet">
+    <link rel="icon" href="/assets/img/leaf-icon.svg" type="image/icon type">
+    <title>Idania Guerrero</title>
+</head>
+
+<body>
+    <header class="menu" id="menu">
+        <a href="#presentation" class="menu__logo">
+            <i class="fa-brands fa-pagelines"></i>
+        </a>
+        <div class="mode"><button onclick="darkMode()" class="mode__button"><i class="fa-solid fa-sun"></i></button></div>
+        <nav>
+            <ul class="menu__list">
+                <li><a href="#about-me" class="item__link">About</a></li>
+                <li><a href="#hobbies" class="item__link">Hobbies</a></li>
+                <li><a href="#trainings" class="item__link">Trainings</a></li>
+                <li><a href="#skills" class="item__link">Skills</a></li>
+                <li><a href="#projects" class="item__link">Projects</a></li>
+                <li><a href="#contact" class="item__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="presentation" class="presentation section-container">
+            <img src="./assets/img/profile.jpg" class="presentation__photograph radius-shadow-photo">
+            <h1 class="presentation__gretting">Hello there, I'm <span class="presentation__name">Idania Guerrero <i class="fa-brands fa-pagelines"></i></span></h1>
+            <h3 class="presentation__profile">Front-end developer in training and project validation engineer (...aaand some other things)</h3>
+            <a href="/assets/docs/CV_Idania Guerrero.pdf" download="CV Idania Guerrero Español.pdf" target="_blank"><button type="button" class="button radius-shadow-box">Resume</button></a>
+        </section>
+        <section class="social-media">
+            <a href="https://github.com/IdaniaGF" target="_blank" class="social-media__link">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/idania-de-jes%C3%BAs-guerrero-fonseca-a74b23138/" class="social-media__link">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="mailto:iguerrerof@outlook.com" target="_blank" class="social-media__link">
+                <i class="fa-solid fa-square-envelope"></i>
+            </a>
+            <a href="https://www.facebook.com/idjgfonseca/" target="_blank" class="social-media__link">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="https://www.instagram.com/idania.gf/" target="_blank" class="social-media__link">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            </ul>
+        </section>
+        <section id="about-me" class="about-me section-container">
+            <h2 class="section-titles">A little bit about me</h2>
+            <div class="about-me__content content-container radius-shadow-box">
+                <img src="./assets/img/work.jpg" class="about-me__photograph radius-shadow-photo">
+                <p class="about-me__description">After three intense years of coordinating validation projects in the pharmaceutical industry and one semester of an unfinished master's degree, I decided to change my path towards software development. What madness, right? I loved my programming
+                    classes at the university, also, with so much engineering math, how could I not learn good logic? I'm just starting out, but I'm sure of one thing, programming makes me much happier than the things I tried before.</p>
+            </div>
+        </section>
+        <section id="hobbies" class="hobbies section-container">
+            <h2 class="section-titles">Things I love</h2>
+            <div class="hobbies__content content-container">
+                <div class="hobbie radius-shadow-photo"></div>
+                <div class="hobbie radius-shadow-photo"></div>
+                <div class="hobbie radius-shadow-photo"></div>
+                <div class="hobbie radius-shadow-photo"></div>
+                <div class="hobbie radius-shadow-photo"></div>
+                <div class="hobbie radius-shadow-photo"></div>
+            </div>
+        </section>
+        <section id="trainings" class="trainings section-container">
+            <h2 class="section-titles">Trainings</h2>
+            <div class="training__content content-container">
+                <div class="training radius-shadow-box">
+                    <img src="./assets/img/logo-uas.png" class="training__school">
+                    <h3 class="training__title">Chemical Engineering - Bachelor</h3>
+                    <h4 class="training__date">2011-2016</h4>
+                </div>
+                <div class="training radius-shadow-box">
+                    <img src="./assets/img/logo-unam.svg" class="training__school">
+                    <h3 class="training__title">Sustainability Sciences - Master (6m)</h3>
+                    <h4 class="training__date">2022</h4>
+                </div>
+                <div class="training radius-shadow-box">
+                    <div class="training__school oracleyaltura">
+                        <img src="./assets/img/logo-oracle.png" class="training__school--oracle">
+                        <img src="./assets/img/logo-alura.svg" class="training__school--alura">
+                    </div>
+                    <h3 class="training__title">Front-end developer</h3>
+                    <h4 class="training__date">2021</h4>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills section-container">
+            <h2 class="section-titles">My skills</h2>
+            <div class="skills__content content-container">
+                <div class="skills__icons">
+                    <i class="fa-brands fa-html5 skill"></i>
+                    <i class="fa-brands fa-css3-alt skill"></i>
+                    <i class="fa-brands fa-js skill"></i>
+                    <i class="fa-brands fa-git skill"></i>
+                </div>
+                <p class="skills__comment">...but easy, more icons are comming right now ;)</p>
+            </div>
+        </section>
+        <section id="projects" class="projects section-container">
+            <h2 class="section-titles">Projects</h2>
+            <div class="project content-container">
+                <div class="project__info">
+                    <h4 class="project__title">Text encoder</h4>
+                    <p class="project__decription radius-shadow-box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem quam repellendus assumenda impedit explicabo amet, iure, obcaecati quae dolor maxime, nemo commodi corrupti ut provident beatae dignissimos? Facilis, voluptatem quas.</p>
+                    <div class="project__icons">
+                        <div class="project__tecnologies">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div>
+                            <a href="https://github.com/IdaniaGF/Challenge-1---Encriptador" target="_blank" class="project__links"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://idaniagf.github.io/Challenge-1---Encriptador/" target="_blank" class="project__links"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/img/encoder.png" class="project__img radius-shadow-box">
+
+            </div>
+            <div class="project content-container">
+                <div class="project__info">
+                    <h4 class="project__title">Ahorcado Game</h4>
+                    <p class="project__decription radius-shadow-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptates maxime cupiditate cum, architecto iure sapiente commodi? Dolorem tempore explicabo distinctio laborum eos natus sunt, sit veniam debitis, vitae et.</p>
+                    <div class="project__icons">
+                        <div class="project__tecnologies">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div>
+                            <a href="https://github.com/IdaniaGF/Challenge-2--Juego-del-Ahorcado." target="_blank" class="project__links"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://idaniagf.github.io/Challenge-2--Juego-del-Ahorcado./" target="_blank" class="project__links">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/img/ahorcado.png" class="project__img radius-shadow-box">
+            </div>
+        </section>
+        <section id="contact" class="contact section-container">
+            <h2 class="section-titles">Contact</h2>
+            <p class="contact__text">Contact me! I will reply you as soon as I can :)</p>
+            <form action="#" class="contact__form">
+                <div class="contact__container1">
+                    <label class="form__box radius-shadow-box">Name: <input type="text" id="form__name" class="form__field" name="name" placeholder="Pedro" required></label>
+                    <label class="form__box radius-shadow-box">Email: <input type="email" id="form__email" class="form__field" name="email" placeholder="example@email.com" required></label>
+                </div>
+                <div class="contact__container2">
+                    <label class="form__box radius-shadow-box">Subject: <input type="text" id="form__subject" class="form__field" name="subject" placeholder="job offer (haha)" required></label>
+                    <label class="form__box radius-shadow-box">Message: <textarea rows="5" name="message" id="form__message" class="form__field" placeholder="Hello, its me...&#127901 " required></textarea></label>
+                    <button type="submit" class="button radius-shadow-box">Send message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer section-container">
+        <a href="#" class="menu__logo">
+            <i class="fa-brands fa-pagelines"></i></a>
+        <h4 class="footer__info">Designed and developed by Idania Guerrero</h4>
+        <p class="footer__year">2022</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        /*darkmode function*/
+        function darkMode() {
+            const element = document.body;
+            const darkModeBtn = document.querySelector(".mode__button"); 
+            element.classList.toggle("dark-mode");
+            darkModeBtn.classList.toggle("mode__button--active");
+        }
+
+        /*scrolling navbar animation*/
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            const currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("menu").style.top = "0";
+            } else {
+                document.getElementById("menu").style.top = "-3.5rem";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</body>
+
+</html>q21

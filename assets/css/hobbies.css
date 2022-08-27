@@ -1,0 +1,82 @@
+.hobbies__content {
+    align-items: center;
+}
+
+.hobbie:nth-child(1) {
+    background: url("../img/hobbie1.jpg") no-repeat center / cover;
+}
+
+.hobbie:nth-child(2) {
+    background: url("../img/hobbie2.jpg") no-repeat center / cover;
+}
+
+.hobbie:nth-child(3) {
+    background: url("../img/hobbie3.jpg") no-repeat center / cover;
+}
+
+.hobbie:nth-child(4) {
+    background: url("../img/hobbie4.jpg") no-repeat center / cover;
+}
+
+.hobbie:nth-child(5) {
+    background: url("../img/hobbie5.jpg") no-repeat center / cover;
+}
+
+.hobbie:nth-child(6) {
+    background: url("../img/hobbie6.jpg") no-repeat center / cover;
+}
+
+.hobbie {
+    width: 10vw;
+    height: 10vw;
+    margin: 1vw;
+    opacity: 0.7;
+    transition: all 1.3s ease-in-out;
+}
+
+.hobbie:hover {
+    width: 13vw;
+    height: 13vw;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hobbie:active {
+    width: 25vw;
+    height: 25vw;
+    opacity: 1;
+    border-radius: var(--light-radius);
+    margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .hobbie {
+        width: 20vw;
+        height: 20vw;
+        margin: 2vw;
+    }
+    .hobbie:hover {
+        width: 27vw;
+        height: 27vw;
+    }
+    .hobbie:active {
+        width: 35vw;
+        height: 35vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hobbie {
+        width: 40vw;
+        height: 40vw;
+        margin: 2vw 5vw;
+    }
+    .hobbie:hover {
+        width: 50vw;
+        height: 50vw;
+    }
+    .hobbie:active {
+        width: 80vw;
+        height: 80vw;
+    }
+}

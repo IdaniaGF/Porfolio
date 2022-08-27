@@ -1,0 +1,39 @@
+.about-me__content {
+    background-color: var(--olive-green-op);
+    width: 80%;
+    margin: 7% auto;
+}
+
+.about-me__description {
+    width: 60%;
+    line-height: 1.5rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.about-me__photograph {
+    width: 20vw;
+    margin: 1rem;
+    min-width: 150px;
+}
+
+@media only screen and (max-width: 992px) {
+    .about-me__content {
+        flex-direction: column;
+    }
+    .about-me__description {
+        width: 100%;
+    }
+    .about-me__photograph {
+        margin: 1rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me__description {
+        line-height: 1.1rem;
+    }
+    .about-me__content {
+        width: 100%;
+    }
+}
