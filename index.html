@@ -45,8 +45,8 @@
         <section id="presentation" class="presentation section-container">
             <img src="./assets/img/profile.jpg" class="presentation__photograph radius-shadow-photo">
             <h1 class="presentation__gretting">Hello there, I'm <span class="presentation__name">Idania Guerrero <i class="fa-brands fa-pagelines"></i></span></h1>
-            <h3 class="presentation__profile">Front-end developer in training and project validation engineer (...aaand some other things)</h3>
-            <a href="/assets/docs/CV_Idania Guerrero.pdf" download="CV Idania Guerrero Español.pdf" target="_blank"><button type="button" class="button radius-shadow-box">Resume</button></a>
+            <h3 class="presentation__profile">Front-end developer (... aaand some other things)</h3>
+            <a href="/assets/docs/CV_IdaniaGuerrero.pdf" download="CV Idania Guerrero Español.pdf" target="_blank"><button type="button" class="button radius-shadow-box">Resume</button></a>
         </section>
         <section class="social-media">
             <a href="https://github.com/IdaniaGF" target="_blank" class="social-media__link">
@@ -117,6 +117,7 @@
                     <i class="fa-brands fa-css3-alt skill"></i>
                     <i class="fa-brands fa-js skill"></i>
                     <i class="fa-brands fa-git skill"></i>
+                    <i class="fa-brands fa-java skill"></i>
                 </div>
                 <p class="skills__comment">...but easy, more icons are comming right now ;)</p>
             </div>
@@ -125,8 +126,8 @@
             <h2 class="section-titles">Projects</h2>
             <div class="project content-container">
                 <div class="project__info">
-                    <h4 class="project__title">Text encoder</h4>
-                    <p class="project__decription radius-shadow-box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem quam repellendus assumenda impedit explicabo amet, iure, obcaecati quae dolor maxime, nemo commodi corrupti ut provident beatae dignissimos? Facilis, voluptatem quas.</p>
+                    <h4 class="project__title">E-commerce</h4>
+                    <p class="project__decription radius-shadow-box">The vital is a fictitious e-commerce both for the management of ecological products and customer visualization. The site allows you to login as an administrator to delete, edit or create new products. It also has a product search field. A JSON database and a fake server were created. Each form has field validations.</p>
                     <div class="project__icons">
                         <div class="project__tecnologies">
                             <i class="fa-brands fa-html5"></i>
@@ -134,18 +135,35 @@
                             <i class="fa-brands fa-js"></i>
                         </div>
                         <div>
-                            <a href="https://github.com/IdaniaGF/Challenge-1---Encriptador" target="_blank" class="project__links"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://idaniagf.github.io/Challenge-1---Encriptador/" target="_blank" class="project__links"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/IdaniaGF/e-commerce-alura" target="_blank" class="project__links"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://idaniagf.github.io/e-commerce-alura/" target="_blank" class="project__links"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
-                <img src="./assets/img/encoder.png" class="project__img radius-shadow-box">
-
+                <img src="./assets/img/e-commerce.png" class="project__img radius-shadow-box">
+            </div>
+            <div class="project content-container">
+                <div class="project__info">
+                    <h4 class="project__title">Appointment manager</h4>
+                    <p class="project__decription radius-shadow-box">The appointment manager has a form to enter the data, the form is validated and submit is not allowed if any field is empty or some pattern does not match. In this project OOP was apllied for appointment management (CRUD). The data is stored in an IndexedDB.</p>
+                    <div class="project__icons">
+                        <div class="project__tecnologies">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div>
+                            <a href="https://github.com/IdaniaGF/Administrador-de-citas" target="_blank" class="project__links"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://idaniagf.github.io/Administrador-de-citas/" target="_blank" class="project__links"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/img/administrador.png" class="project__img radius-shadow-box">
             </div>
             <div class="project content-container">
                 <div class="project__info">
                     <h4 class="project__title">Ahorcado Game</h4>
-                    <p class="project__decription radius-shadow-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptates maxime cupiditate cum, architecto iure sapiente commodi? Dolorem tempore explicabo distinctio laborum eos natus sunt, sit veniam debitis, vitae et.</p>
+                    <p class="project__decription radius-shadow-box">The user must type letters and guess the secret word, if the drawing is complete the game is over. A "keydown" event listener was used to input the letters of the word. The game does not allow the reading of numbers and special characters. Wrong letters only appear once. A canvas was used to draw the hangman.</p>
                     <div class="project__icons">
                         <div class="project__tecnologies">
                             <i class="fa-brands fa-html5"></i>
@@ -162,6 +180,25 @@
                 </div>
                 <img src="./assets/img/ahorcado.png" class="project__img radius-shadow-box">
             </div>
+            <div class="project content-container">
+                <div class="project__info">
+                    <h4 class="project__title">Text encoder</h4>
+                    <p class="project__decription radius-shadow-box">This encryptor receives a text and encodes it using RegExp. It has a button to copy the text and share the message or copy it back to the input field to decode the text. It is validated that the field does not allow capital letters or special characters.</p>
+                    <div class="project__icons">
+                        <div class="project__tecnologies">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div>
+                            <a href="https://github.com/IdaniaGF/Challenge-1---Encriptador" target="_blank" class="project__links"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://idaniagf.github.io/Challenge-1---Encriptador/" target="_blank" class="project__links"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/img/encoder.png" class="project__img radius-shadow-box">
+            </div>
+            <p>... I have more unpublished projects and others that are under construction.</p>
         </section>
         <section id="contact" class="contact section-container">
             <h2 class="section-titles">Contact</h2>
