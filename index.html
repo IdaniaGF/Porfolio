@@ -21,6 +21,7 @@
     <link href="./assets/css/contact.css" rel="stylesheet">
     <link href="./assets/css/footer.css" rel="stylesheet">
     <link rel="icon" href="/assets/img/leaf-icon.svg" type="image/icon type">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>Idania Guerrero</title>
 </head>
 
@@ -45,25 +46,18 @@
         <section id="presentation" class="presentation section-container">
             <img src="./assets/img/profile.jpg" class="presentation__photograph radius-shadow-photo">
             <h1 class="presentation__gretting">Hello there, I'm <span class="presentation__name">Idania Guerrero <i class="fa-brands fa-pagelines"></i></span></h1>
-            <h3 class="presentation__profile">Front-end developer (... aaand some other things)</h3>
+            <h3 class="presentation__profile">Front-end developer</h3>
             <a href="/assets/docs/CV_IdaniaGuerrero.pdf" download="CV Idania Guerrero Español.pdf" target="_blank"><button type="button" class="button radius-shadow-box">Resume</button></a>
         </section>
         <section class="social-media">
             <a href="https://github.com/IdaniaGF" target="_blank" class="social-media__link">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/idania-de-jes%C3%BAs-guerrero-fonseca-a74b23138/" class="social-media__link">
+            <a href="https://www.linkedin.com/in/idaniaguerrero/" class="social-media__link">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
             <a href="mailto:iguerrerof@outlook.com" target="_blank" class="social-media__link">
                 <i class="fa-solid fa-square-envelope"></i>
-            </a>
-            <a href="https://www.facebook.com/idjgfonseca/" target="_blank" class="social-media__link">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
-
-            <a href="https://www.instagram.com/idania.gf/" target="_blank" class="social-media__link">
-                <i class="fa-brands fa-instagram"></i>
             </a>
             </ul>
         </section>
@@ -71,8 +65,7 @@
             <h2 class="section-titles">A little bit about me</h2>
             <div class="about-me__content content-container radius-shadow-box">
                 <img src="./assets/img/work.jpg" class="about-me__photograph radius-shadow-photo">
-                <p class="about-me__description">After three intense years of coordinating validation projects in the pharmaceutical industry and one semester of an unfinished master's degree, I decided to change my path towards software development. What madness, right? I loved my programming
-                    classes at the university, also, with so much engineering math, how could I not learn good logic? I'm just starting out, but I'm sure of one thing, programming makes me much happier than the things I tried before.</p>
+                <p class="about-me__description">After three years validating projects in pharmaceutical industry, I decided to change my path towards software development. What madness, right? I always loved programming since university, also, with so much engineering math, how could I not learn good logic? I'm just starting out, but I'm sure of one thing, programming makes me much happier than the things I tried before.</p>
             </div>
         </section>
         <section id="hobbies" class="hobbies section-container">
@@ -112,18 +105,38 @@
         <section id="skills" class="skills section-container">
             <h2 class="section-titles">My skills</h2>
             <div class="skills__content content-container">
-                <div class="skills__icons">
-                    <i class="fa-brands fa-html5 skill"></i>
-                    <i class="fa-brands fa-css3-alt skill"></i>
-                    <i class="fa-brands fa-js skill"></i>
-                    <i class="fa-brands fa-git skill"></i>
-                    <i class="fa-brands fa-java skill"></i>
+                <div class="main-gallery js-flickity">
+                    <div class="gallery-cell"><i class="fa-brands fa-html5 skill"></i></div>
+                    <div class="gallery-cell"><i class="fa-brands fa-css3-alt skill"></i></div>
+                    <div class="gallery-cell"><i class="fa-brands fa-js skill"></i></div>
+                    <div class="gallery-cell"><i class="fa-brands fa-git skill"></i></div>
+                    <div class="gallery-cell"><i class="fa-brands fa-java skill"></i></div>
+                    <div class="gallery-cell"><i class="fa-brands fa-react skill"></i></div>
+                    <div class="gallery-cell"><img src="assets/img/mysql-icon.svg" class="skill img_icons"></img></div>
+                    <div class="gallery-cell"><img src="assets/img/typescript.svg" class="skill img_icons"></img></div>
+                    <div class="gallery-cell"><img src="assets/img/bootstrap.svg" class="skill img_icons"></img></div>
+                    <div class="gallery-cell"><img src="assets/img/tailwindcss.svg" class="skill img_icons"></img></div>
                 </div>
-                <p class="skills__comment">...but easy, more icons are comming right now ;)</p>
+                <p class="skills__comment">...but easy, more is comming right now 📚</p>
             </div>
         </section>
         <section id="projects" class="projects section-container">
             <h2 class="section-titles">Projects</h2>
+            <div class="project content-container">
+                <div class="project__info">
+                    <h4 class="project__title">TipiCamp</h4>
+                    <p class="project__decription radius-shadow-box">TipiCamp is a fictitious desktop Java application for managing reservations and guests at a campsite. User authentication is required to search, save, update, and delete reservation or guest records. To do this I created a local Mysql database with a relationship between entities of 1-n. The connection to the database was made with the JDBC API. The Model View Controller design pattern was used. 
+                    <div class="project__icons">
+                        <div class="project__tecnologies">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div>
+                            <a href="https://github.com/IdaniaGF/TipiCamp_Java_JDBC" target="_blank" class="project__links"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/img/TipiCamp.png" class="project__img radius-shadow-box">
+            </div>
             <div class="project content-container">
                 <div class="project__info">
                     <h4 class="project__title">E-commerce</h4>
@@ -203,7 +216,7 @@
         <section id="contact" class="contact section-container">
             <h2 class="section-titles">Contact</h2>
             <p class="contact__text">Contact me! I will reply you as soon as I can :)</p>
-            <form action="#" class="contact__form">
+            <form action="https://formspree.io/f/mqkjyajj" method="post"class="contact__form">
                 <div class="contact__container1">
                     <label class="form__box radius-shadow-box">Name: <input type="text" id="form__name" class="form__field" name="name" placeholder="Pedro" required></label>
                     <label class="form__box radius-shadow-box">Email: <input type="email" id="form__email" class="form__field" name="email" placeholder="example@email.com" required></label>
@@ -222,6 +235,7 @@
         <h4 class="footer__info">Designed and developed by Idania Guerrero</h4>
         <p class="footer__year">2022</p>
     </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script>
@@ -244,7 +258,18 @@
             }
             prevScrollpos = currentScrollPos;
         }
+
+        // Flickity 
+        var flkty = new Flickity( '.main-gallery', {
+            // options
+            cellAlign: 'left',
+            wrapAround: true,
+            autoPlay: 2000,            
+            pauseAutoPlayOnHover: false,
+            pageDots: false,
+            prevNextButtons: false,
+        });
     </script>
 </body>
 
-</html>q21
+</html>

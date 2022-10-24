@@ -1,20 +1,36 @@
+.skills__content{
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-gallery{
+    width: 80%;
+}
+
+.gallery-cell{
+    width: 20%;
+    height: 100px;
+}
+
 .skill {
     color: var(--olive-green);
     font-size: 6rem;
 }
 
+.img_icons {
+    height: 6rem; 
+}
+
+/*
 .skills__icons {
     display: flex;
     justify-content: space-evenly;
-    width: 60%;
+}
+*/
+.skills__comment {
+    margin-top: 5%;
 }
 
 @media only screen and (max-width: 992px) {
-    .skills__icons {
-        width: 100%;
-    }
-    .skills__comment {
-        margin-top: 5%;
-        text-align: center;
-    }
+
 }
