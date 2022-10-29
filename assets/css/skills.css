@@ -32,5 +32,17 @@
 }
 
 @media only screen and (max-width: 992px) {
+    .gallery-cell{
+        width: 35%;
+    }
+}
 
+@media only screen and (max-width: 600px) {
+    .gallery-cell{
+        width: 100%;
+    }
+    .skill {
+        color: var(--olive-green);
+        font-size: 4rem;
+    }
 }
